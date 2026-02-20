@@ -18,7 +18,7 @@ if st.button("Classify",type="primary"):
     #make prediction now
     prediction=model.predict(input_features_scaled)
     #map pass values
-    pas= { 1:'Student Fails',0:'Student Passes'}
+    pas= { 1:'Student Passes',0:'Student fails'}
     student_performance=pas[int(prediction[0])]
     #display now
     st.success(f"The predicted performance is: {student_performance}")
