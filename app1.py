@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import streamlit as st
+import altair
 #loading model
 model=joblib.load("model1.pkl")
 scaler=joblib.load("scaler1.pkl")
