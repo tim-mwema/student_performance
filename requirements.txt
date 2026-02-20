@@ -4,4 +4,3 @@ scikit-learn
 imblearn
 joblib
 streamlit 
-altair
