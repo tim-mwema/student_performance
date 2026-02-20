@@ -3,4 +3,4 @@ numpy
 scikit-learn
 imblearn
 joblib
-streamlit 
+streamlit>=1.30.0 
